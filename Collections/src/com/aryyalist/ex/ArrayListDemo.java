@@ -14,9 +14,15 @@ public class ArrayListDemo {
 		list.add("Sagar");
 		
 		//System.out.println(list);   
-		Iterator<String> itr = list.iterator();
+		
+		Iterator<String> itr = list.iterator(); //by using iterator method preferable
 		while (itr.hasNext()){
 			System.out.println(itr.next());
 		}
+	
+		/*for(String str:list) {
+			System.out.println(str);		
+			
+			}*/
 	}
 }

@@ -1,6 +1,7 @@
 package com.collection.ex1;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.ListIterator;
 
 public class BrandTester {
@@ -22,9 +23,9 @@ public class BrandTester {
 		java.util.List<BrandsDTO> list = new ArrayList<BrandsDTO>();
 		list.add(brand);
 		list.add(brand1);
-		//System.out.println(list);
+			System.out.println(list);
 		
-		ListIterator<BrandsDTO> itr = list.listIterator();
+		/*ListIterator<BrandsDTO> itr = list.listIterator();
 		System.out.println("Foward direction");
 		while(itr.hasNext()) {
 			System.out.println(itr.next());
@@ -32,13 +33,22 @@ public class BrandTester {
 		System.out.println("Reverse direction");
 		while(itr.hasPrevious()) {
 			System.out.println(itr.previous());
-		}
-	java.util.List<String>list1 = new ArrayList<String>();
+		}*/
+	/*java.util.List<String>list1 = new ArrayList<String>();
 	list1.add("life");
 	list1.add("is ");
 	list1.add("so");
 	list1.add("beautiful");
 	System.out.println(list1);
+	
+	System.out.println("Before Sorting");  //sorting
+	System.out.println(list1);
+	
+	System.out.println("After Sorting");   //sorting
+	Collections.sort(list1);
+	System.out.println(list1);
+	System.out.println("Decending order");
+	Collections. sort(list1, Collections.reverseOrder());*/
 	}
 	
 }
