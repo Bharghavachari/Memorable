@@ -18,11 +18,11 @@ public class ConnectionDb {
 		}
 		catch(SQLException|ClassNotFoundException exception ) {
 			System.out.println("Connecton is failed:"+exception.getMessage());
-			//System.out.println("Connecton is failed:"+url());
+			//System.out.println("Connecton is failed:"+url());    //url or get,Message
 		}
 			finally {
 				connection.close();
-				System.out.println("Connecton is Closed");
+				System.out.println("Connection is Closed");
 			}
 		}
 	}
